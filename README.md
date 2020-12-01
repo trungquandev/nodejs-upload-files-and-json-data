@@ -1,4 +1,6 @@
-# Node.js upload multiple files
+# Node.js upload multiple files with validation another common json data.
+
+(Note: Đây là một repo đặc biệt được tạo ra để support học viên của mình, cụ thể nếu form muốn upload cả data thông thường lẫn file, có sử dụng enctype="multipart/form-data" thì Multer phải chuyển thành một Middleware, nếu không thì req.body sẽ bị undefined. Tìm hiểu thêm lỗi này ở đây: https://stackoverflow.com/questions/62213070/req-body-not-working-when-using-multipart-form-data-in-html-form-nodejs-express)
 
 ## Requirements
 
